@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2afb4405-3f1f-4a10-a6be-03fa77ad581f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestingApp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my-url-field/my-url-field.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/my-url-field/my-url-field.styels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/post/post-preview/post-preview.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/post/post-quick-create-cancel-button/post-quick-create-cancel-button.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/post/post-quick-create/post-quick-create.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/post/post-reference-input/post-reference-input.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/comment/comment.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/comment/comment.styles.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/dashboard/dashboard.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/news/news.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/news/news.styles.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/posts/posts.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/users/users.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/provider/auth-provider/auth-provider.component.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
-    </list>
+    <list default="true" id="2afb4405-3f1f-4a10-a6be-03fa77ad581f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -293,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1586438939449</updated>
       <workItem from="1586438941728" duration="6345000" />
-      <workItem from="1586503515329" duration="8015000" />
+      <workItem from="1586503515329" duration="8218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14360000" />
+    <option name="totallyTimeSpent" value="14563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="0" />
