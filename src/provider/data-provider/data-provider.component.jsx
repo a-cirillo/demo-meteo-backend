@@ -2,7 +2,7 @@ import { fetchUtils} from 'react-admin';
 import { stringify } from 'query-string';
 
 
-const apiUrl = 'https://jsonplaceholder.typicode.com';
+const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
 
 // const httpClient = (url, options = {}) => {
 //     if (!options.headers) {
