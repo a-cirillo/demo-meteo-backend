@@ -1,0 +1,10 @@
+.link{
+  text-decoration: none;
+  min-width: calc(100% + 30px);
+  display: block;
+
+  .icon{
+    width: 0.5em;
+    padding-left: 2px;
+  }
+}

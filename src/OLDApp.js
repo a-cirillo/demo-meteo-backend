@@ -18,7 +18,6 @@ import HousekeepingIcon from '@material-ui/icons/TvOff';
 import WebcamReportsIcon from '@material-ui/icons/Report';
 import UserIcon from '@material-ui/icons/Group';
 import CommentIcon from '@material-ui/icons/Comment';
-import './custom.styels.scss'
 
 // const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
@@ -26,10 +25,13 @@ import dataProvider from './provider/data-provider/data-provider.component';
 
 // const App = () => <Admin dataProvider={dataProvider} />;
 const App = () => (
-    <Admin authProvider={authProvider} dataProvider={dataProvider}>
+    <Admin authProvider={authProvider} dashboard={Dashboard} dataProvider={dataProvider}>
+      <Resource icon={PostIcon} name="posts" list={PostList} edit={PostEdit} create={PostCreate}/>
       <Resource icon={WebcamIcon} name="webcams" list={WebcamList} edit={WebcamEdit} create={WebcamCreate}/>
-      <Resource icon={HousekeepingIcon} options={{label: 'Housekeeping'}} name="housekeeping" list={HousekeepingList} edit={HousekeepingEdit}/>
-      <Resource icon={WebcamReportsIcon} options={{label: 'Webcam reports'}} name="webcam-reports" list={WebcamReportsList}/>
+      <Resource icon={HousekeepingIcon} name="housekeeping" list={HousekeepingList} edit={HousekeepingEdit}/>
+      <Resource icon={WebcamReportsIcon} name="webcam-reports" list={WebcamReportsList}/>
+      <Resource icon={UserIcon} name="users" list={UserList} />
+      <Resource icon={CommentIcon} name="comments" list={CommentList} />
     </Admin>
 );
 
