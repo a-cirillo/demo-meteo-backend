@@ -2,18 +2,19 @@ import { fetchUtils} from 'react-admin';
 import { stringify } from 'query-string';
 
 
+
+
 const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
 
-// const httpClient = (url, options = {}) => {
-//     if (!options.headers) {
-//         options.headers = new Headers({ Accept: 'application/json' });
-//     }
-//     // add your own headers here
-//     options.headers.set('X-Custom-Header', 'foobar');
-//     options.headers.set('Access-Control-Allow-Origin', '*');
-//     options.headers.set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-//     return fetchUtils.fetchJson(url, options);
-// };
+const httpClient = (url, options = {}) => {
+    // if (!options.headers) {
+    //     options.headers = new Headers({ Accept: 'application/json' });
+    // }
+    // // add your own headers here
+    options.headers = new Headers({'Access-Control-Allow-Origin': '*'});
+    // options.mode = 'no-cors';
+    return fetchUtils.fetchJson(url, options);
+};
 
 function isEmpty(obj) {
     for(var key in obj) {
@@ -107,7 +108,7 @@ const webcamReportFakeData = [
 ];
 
 
-const httpClient = fetchUtils.fetchJson;
+// const httpClient = fetchUtils.fetchJson;
 
 
 export default {
@@ -150,6 +151,7 @@ export default {
             }
 
             const url = `${apiUrl}`;
+
             return httpClient(url).then(({headers, json}) => ({
                 data: current_object,
                 total: current_object.length
