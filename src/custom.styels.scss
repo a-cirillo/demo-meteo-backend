@@ -2,7 +2,21 @@
   background-color: #FF9900!important;
 }
 
-.RaLogin-main-403{
+.RaLogin-main-403, .jss639{
   background-image: none!important;
   background-color: #FF9900!important;
 }
+
+.column-image div{
+  position: relative!important;
+  height: 150px!important;
+  width: 300px!important;
+  overflow: hidden!important;
+}
+
+.column-image div img{
+  width: 100%!important;
+  height: auto!important;
+  object-fit: cover!important;
+}
+

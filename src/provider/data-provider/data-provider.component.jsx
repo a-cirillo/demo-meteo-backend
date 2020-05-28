@@ -4,17 +4,17 @@ import { stringify } from 'query-string';
 
 
 
-const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+const apiUrl = 'https://www.mocky.io/v2/5ecf77c93200004700e3d20a';
 
-const httpClient = (url, options = {}) => {
-    // if (!options.headers) {
-    //     options.headers = new Headers({ Accept: 'application/json' });
-    // }
-    // // add your own headers here
-    options.headers = new Headers({'Access-Control-Allow-Origin': '*'});
-    // options.mode = 'no-cors';
-    return fetchUtils.fetchJson(url, options);
-};
+// const httpClient = (url, options = {}) => {
+//     // if (!options.headers) {
+//     //     options.headers = new Headers({ Accept: 'application/json' });
+//     // }
+//     // // add your own headers here
+//     options.headers = new Headers({'Access-Control-Allow-Origin': '*'});
+//     // options.mode = 'no-cors';
+//     return fetchUtils.fetchJson(url, options);
+// };
 
 function isEmpty(obj) {
     for(var key in obj) {
@@ -30,7 +30,7 @@ const webcamFakeData = [
         lid: 34,
         name: "Lorem Ipsum",
         description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "https://www.bitdrome.com",
+        url: "http://www.webcam-meteo-roma.it/webcam/current.jpg",
         image: 'http://www.webcam-meteo-roma.it/webcam/current.jpg',
         source: 'Manual',
         status: 'HTTP Error: 500'
@@ -40,7 +40,7 @@ const webcamFakeData = [
         lid: 37,
         name: "Lorem Ipsum",
         description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "https://www.bitdrome.com",
+        url: "http://meteo.viamar.org/jpgwebcam.jpg",
         image: 'http://meteo.viamar.org/jpgwebcam.jpg',
         source: 'User reported',
         status: 'HTTP Error: 400'
@@ -50,7 +50,7 @@ const webcamFakeData = [
         lid: 3,
         name: "Lorem Ipsum",
         description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "https://www.bitdrome.com",
+        url: "http://www.meteocentocelle.it/weather/video.jpg",
         image: 'http://www.meteocentocelle.it/weather/video.jpg',
         source: 'Feratel',
         status: 'Content is not image'
@@ -60,7 +60,7 @@ const webcamFakeData = [
         lid: 54,
         name: "Lorem Ipsum",
         description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "https://www.bitdrome.com",
+        url: "http://www.meteocentocelle.it/weather/video.jpg",
         image: 'http://www.meteocentocelle.it/weather/video.jpg',
         source: 'Manual',
         status: 'HTTP Error: 500'
@@ -70,7 +70,7 @@ const webcamFakeData = [
         lid: 7,
         name: "Lorem Ipsum",
         description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "https://www.bitdrome.com",
+        url: "http://meteo.viamar.org/jpgwebcam.jpg",
         image: 'http://meteo.viamar.org/jpgwebcam.jpg',
         source: 'User reported',
         status: 'HTTP Error: 400'
@@ -108,7 +108,7 @@ const webcamReportFakeData = [
 ];
 
 
-// const httpClient = fetchUtils.fetchJson;
+const httpClient = fetchUtils.fetchJson;
 
 
 export default {

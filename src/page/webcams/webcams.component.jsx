@@ -43,8 +43,8 @@ export const WebcamList = props => {
                 />
             ) : (
                 <Datagrid>
-                    <TextField label="Wid" source="id"/>
-                    <TextField source="lid" />
+                    <TextField label="WID" source="id"/>
+                    <TextField label="LID" source="lid" />
                     <TextField source="name" />
                     <TextField source="description" />
                     <CustomUrlField source="url" />

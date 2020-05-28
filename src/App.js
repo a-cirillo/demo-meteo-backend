@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Admin } from 'react-admin';
-import { Admin, Resource} from 'react-admin';
+import { Admin, Resource, Login} from 'react-admin';
 import { PostList, PostEdit, PostCreate } from './page/posts/posts.component';
 import { WebcamList, WebcamEdit, WebcamCreate } from './page/webcams/webcams.component';
 import { WebcamReportsList } from './page/webcam-reports/webcam-reports.component';
@@ -19,14 +19,21 @@ import WebcamReportsIcon from '@material-ui/icons/Report';
 import UserIcon from '@material-ui/icons/Group';
 import CommentIcon from '@material-ui/icons/Comment';
 import './custom.styels.scss'
-
 // const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 import dataProvider from './provider/data-provider/data-provider.component';
 
+const MyLoginPage = () => (
+    <Login
+        // A random image that changes everyday
+        backgroundImage="/img/bg.jpg"
+    />
+);
+
+
 // const App = () => <Admin dataProvider={dataProvider} />;
 const App = () => (
-    <Admin authProvider={authProvider} dataProvider={dataProvider}>
+    <Admin loginPage={MyLoginPage} authProvider={authProvider} dataProvider={dataProvider}>
       <Resource icon={WebcamIcon} name="webcams" list={WebcamList} edit={WebcamEdit} create={WebcamCreate}/>
       <Resource icon={HousekeepingIcon} options={{label: 'Housekeeping'}} name="housekeeping" list={HousekeepingList} edit={HousekeepingEdit}/>
       <Resource icon={WebcamReportsIcon} options={{label: 'Webcam reports'}} name="webcam-reports" list={WebcamReportsList}/>
