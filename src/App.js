@@ -37,7 +37,7 @@ const App = () => (
     <Admin loginPage={MyLoginPage} authProvider={authProvider} dataProvider={dataProvider}>
       <Resource icon={WebcamIcon} name="webcams" list={WebcamList} edit={WebcamEdit} create={WebcamCreate}/>
       <Resource icon={HousekeepingIcon} options={{label: 'Housekeeping'}} name="housekeeping" list={HousekeepingList} edit={HousekeepingEdit}/>
-      <Resource icon={WebcamReportsIcon} options={{label: 'Webcam reports'}} name="webcam-reports" list={WebcamReportsList}/>
+      <Resource icon={WebcamReportsIcon} options={{label: 'Webcam Reports', title: 'Webcam Reports'}} name="reports" list={WebcamReportsList}/>
     </Admin>
 );
 

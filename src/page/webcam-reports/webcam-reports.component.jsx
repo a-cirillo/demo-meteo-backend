@@ -22,16 +22,14 @@ import CustomUrlField from '../../components/custom-url-field/custom-url-field.c
 import CustomButton from '../../components/custom-button/custom-button.component';
 
 const WebcamReportsTitle = ({ record }) => {
- return <span>Post {record ? `"${record.name}"` : ''}</span>;
+ return <span>Record {record ? `"${record.name}"` : ''}</span>;
 };
 
 const WebcamReportsFilter = (props) => (
     <Filter {...props}>
-        <TextInput label="Url della webcam" source="url_webcam" />
-        <TextInput label="Sito web che ospita la webcam" source="url_site" />
-        <TextInput label="Lid" source="lid" />
-        <TextInput label="Località" source="locality" />
-        <TextInput label="Email segnalatore" source="email" />
+        <TextInput label="LID" source="lid" />
+        <TextInput label="Location" source="locality" />
+        <TextInput label="Reporter email" source="email" />
     </Filter>
 );
 
@@ -46,12 +44,12 @@ export const WebcamReportsList = props => {
                 />
             ) : (
                 <Datagrid>
-                    <TextField source="id"/>
-                    <TextField source="lid" />
-                    <CustomUrlField label="Url della webcam" source="url_webcam" />
-                    <CustomUrlField label="Sito web che ospita la webcam" source="url_site" />
-                    <TextField label="Località" source="locality" />
-                    <TextField label="Email segnalatore" source="email" />
+                    <TextField label="RID" source="id"/>
+                    <TextField label="LID" source="lid" />
+                    <TextField label="Location" source="locality" />
+                    <TextField label="Reporter email" source="email" />
+                    <CustomUrlField label="Webcam URL" source="url_webcam" />
+                    <CustomUrlField label="Source website" source="url_site" />
                     <CustomButton />
                 </Datagrid>
             )}

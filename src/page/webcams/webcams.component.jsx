@@ -48,7 +48,7 @@ export const WebcamList = props => {
                     <TextField label="LID" source="lid" />
                     <TextField source="name" />
                     <TextField source="description" />
-                    <CustomUrlField source="url" />
+                    <CustomUrlField label="URL" source="url" />
                     <ChipField source="source" />
                     <ImageField label="Preview" source="image" title="webcam" />
                     <EditButton />
@@ -64,7 +64,7 @@ export const WebcamEdit = props => (
             <TextInput label="LID" source="lid" />
             <TextInput source="name" />
             <TextInput multiline source="description" />
-            <TextInput source="url" />
+            <TextInput label="URL" source="url" />
         </SimpleForm>
     </Edit>
 );
@@ -75,7 +75,7 @@ export const WebcamCreate = props => (
             <TextInput label="LID" source="lid" />
             <TextInput source="name" />
             <TextInput multiline source="description" />
-            <TextInput source="url" />
+            <TextInput label="URL" source="url" />
         </SimpleForm>
     </Create>
 );

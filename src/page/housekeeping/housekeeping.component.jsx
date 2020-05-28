@@ -15,10 +15,24 @@ import {
     SelectInput,
     Create,
     SimpleList,
-    ImageField
+    ImageField,
+    ChipField
 } from 'react-admin';
 
 import CustomUrlField from '../../components/custom-url-field/custom-url-field.component';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    style: {
+        color: 'purple',
+        backgroundColor: 'red'
+    },
+});
+
+const StatusField = props => {
+    const classes = useStyles();
+    return <ChipField className={classes.style} {...props} />;
+};
 
 const HousekeepingTitle = ({ record }) => {
  return <span>Post {record ? `"${record.name}"` : ''}</span>;
@@ -27,7 +41,7 @@ const HousekeepingTitle = ({ record }) => {
 const HousekeepingFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Name" source="name" alwaysOn />
-        <TextInput label="Lid" source="lid" />
+        <TextInput label="LID" source="lid" />
         <TextInput label="Source" source="source" />
         <TextInput label="Status" source="status" />
     </Filter>
@@ -44,12 +58,12 @@ export const HousekeepingList = props => {
                 />
             ) : (
                 <Datagrid>
-                    <TextField label="Wid" source="id"/>
-                    <TextField source="lid" />
+                    <TextField label="WID" source="id"/>
+                    <TextField label="LID" source="lid" />
+                    <StatusField source="status"/>
                     <TextField source="name" />
-                    <CustomUrlField source="url" />
+                    <CustomUrlField label="URL" source="url" />
                     <TextField source="source" />
-                    <TextField source="status" />
                     <ImageField label="Preview" source="image" title="title" />
                     <EditButton />
                 </Datagrid>
@@ -63,7 +77,7 @@ export const HousekeepingEdit = props => (
         <SimpleForm redirect={"/webcams"}>
             <TextInput source="lid" />
             <TextInput source="name" />
-            <TextInput source="url" />
+            <TextInput label="URL" source="url" />
             <TextInput source="image" />
             <TextInput source="source" />
             <TextInput source="status" />
@@ -77,7 +91,7 @@ export const HousekeepingCreate = props => (
             <TextInput source="lid" />
             <TextInput source="name" />
             <TextInput multiline source="description" />
-            <TextInput source="url" />
+            <TextInput label="URL" source="url" />
             <TextInput source="image" />
             <TextInput source="source" />
             <TextInput source="status" />

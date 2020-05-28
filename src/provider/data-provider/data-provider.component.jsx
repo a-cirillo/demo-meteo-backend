@@ -41,7 +41,7 @@ const webcamFakeData = [
         name: "Roma (RM)",
         description: "Roma Parioli",
         url: "http://www.webcam-meteo-roma.it/webcam/current.jpg",
-        image: 'http://www.webcam-meteo-roma.it/webcam/current.jpg"',
+        image: "http://www.webcam-meteo-roma.it/webcam/current.jpg",
         source: 'User reported',
         status: 'HTTP Error: 400'
     },
@@ -237,7 +237,7 @@ export default {
             }));
         }
 
-        if(resource === 'webcam-reports'){
+        if(resource === 'reports'){
             let current_object = webcamReportFakeData;
             if(isEmpty(params.filter)){
             }else{
