@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "854220299c0c7716f50484eefb0bb3b4",
+    "revision": "2dfc31b43b48dc952a071e0b02917448",
     "url": "/demo-meteo-backend/index.html"
   },
   {
-    "revision": "aa973929b69040a0fa85",
+    "revision": "e86ab4ff9f79f526fbe8",
     "url": "/demo-meteo-backend/static/css/main.2abfdf31.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demo-meteo-backend/static/js/2.2b57d138.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa973929b69040a0fa85",
-    "url": "/demo-meteo-backend/static/js/main.105e027a.chunk.js"
+    "revision": "e86ab4ff9f79f526fbe8",
+    "url": "/demo-meteo-backend/static/js/main.3f73e4ec.chunk.js"
   },
   {
     "revision": "ae92a71578ea6e528772",
