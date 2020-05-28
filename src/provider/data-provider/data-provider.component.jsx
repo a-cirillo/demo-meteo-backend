@@ -114,17 +114,7 @@ const webcamFakeData = [
         image: 'http://meteo.viamar.org/jpgwebcam.jpg',
         source: 'User reported',
         status: 'HTTP Error: 400'
-    },
-    {
-        id: 4598,
-        lid: 5913,
-        name: "Roma (RM)",
-        description: "Piazza Navona",
-        url: "http://media06.whatsupcams.com/snaps/it_roma02/it_roma02.png",
-        image: 'http://media06.whatsupcams.com/snaps/it_roma02/it_roma02.png',
-        source: 'User reported',
-        status: 'HTTP Error: 400'
-    },
+    }
 ];
 
 const webcamReportFakeData = [
