@@ -13,9 +13,9 @@ import authProvider from './provider/auth-provider/auth-provider.component';
 import jsonServerProvider from 'ra-data-json-server';
 
 import PostIcon from '@material-ui/icons/Book';
-import WebcamIcon from '@material-ui/icons/Airplay';
-import HousekeepingIcon from '@material-ui/icons/TvOff';
-import WebcamReportsIcon from '@material-ui/icons/Report';
+import WebcamIcon from '@material-ui/icons/LinkedCamera';
+import HousekeepingIcon from '@material-ui/icons/BrokenImage';
+import WebcamReportsIcon from '@material-ui/icons/RecordVoiceOver';
 import UserIcon from '@material-ui/icons/Group';
 import CommentIcon from '@material-ui/icons/Comment';
 import './custom.styels.scss'

@@ -15,7 +15,8 @@ import {
     SelectInput,
     Create,
     SimpleList,
-    ImageField
+    ImageField,
+    ChipField
 } from 'react-admin';
 
 import CustomUrlField from '../../components/custom-url-field/custom-url-field.component';
@@ -27,7 +28,7 @@ const WebcamTitle = ({ record }) => {
 const WebcamFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Name" source="name" alwaysOn />
-        <TextInput label="Lid" source="lid" />
+        <TextInput label="LID" source="lid" />
         <TextInput label="Source" source="source" />
     </Filter>
 );
@@ -48,8 +49,8 @@ export const WebcamList = props => {
                     <TextField source="name" />
                     <TextField source="description" />
                     <CustomUrlField source="url" />
-                    <TextField source="source" />
-                    <ImageField label="Preview" source="image" title="title" />
+                    <ChipField source="source" />
+                    <ImageField label="Preview" source="image" title="webcam" />
                     <EditButton />
                 </Datagrid>
             )}
@@ -60,12 +61,10 @@ export const WebcamList = props => {
 export const WebcamEdit = props => (
     <Edit title={<WebcamTitle />} {...props}>
         <SimpleForm redirect={"/webcams"}>
-            <TextInput source="lid" />
+            <TextInput label="LID" source="lid" />
             <TextInput source="name" />
             <TextInput multiline source="description" />
             <TextInput source="url" />
-            <TextInput source="image" />
-            <TextInput source="source" />
         </SimpleForm>
     </Edit>
 );
@@ -73,12 +72,10 @@ export const WebcamEdit = props => (
 export const WebcamCreate = props => (
     <Create {...props}>
         <SimpleForm redirect={"/webcams"}>
-            <TextInput source="lid" />
+            <TextInput label="LID" source="lid" />
             <TextInput source="name" />
             <TextInput multiline source="description" />
             <TextInput source="url" />
-            <TextInput source="image" />
-            <TextInput source="source" />
         </SimpleForm>
     </Create>
 );

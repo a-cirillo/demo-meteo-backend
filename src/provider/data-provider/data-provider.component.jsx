@@ -26,52 +26,102 @@ function isEmpty(obj) {
 
 const webcamFakeData = [
     {
-        id: 126,
-        lid: 34,
-        name: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "http://www.webcam-meteo-roma.it/webcam/current.jpg",
-        image: 'http://www.webcam-meteo-roma.it/webcam/current.jpg',
+        id: 23,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Vista panoramica. Sullo sfondo la Basilica di S.Pietro.",
+        url: "http://www.barcello.it/images/meteo/axis.jpg",
+        image: 'http://www.barcello.it/images/meteo/axis.jpg',
         source: 'Manual',
         status: 'HTTP Error: 500'
     },
     {
-        id: 127,
-        lid: 37,
-        name: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
+        id: 666,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Roma Parioli",
+        url: "http://www.webcam-meteo-roma.it/webcam/current.jpg",
+        image: 'http://www.webcam-meteo-roma.it/webcam/current.jpg"',
+        source: 'User reported',
+        status: 'HTTP Error: 400'
+    },
+    {
+        id: 1305,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Roma Spinaceto. Vista nord",
+        url: "http://meteo.viamar.org/jpgwebcam.jpg",
+        image: 'http://meteo.viamar.org/jpgwebcam.jpg',
+        source: 'Feratel',
+        status: 'Content is not image'
+    },
+    {
+        id: 1530,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Stazione meteo Centocelle",
+        url: "http://www.meteocentocelle.it/weather/video.jpg",
+        image: 'http://www.meteocentocelle.it/weather/video.jpg',
+        source: 'Manual',
+        status: 'HTTP Error: 500'
+    },
+    {
+        id: 2033,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Roma Spinaceto: Panoramica verso ovest, direzione aeroporto di Fiumicino",
+        url: "http://www.meteospinaceto.it/_altervista_ht/webcam.php",
+        image: 'http://www.meteospinaceto.it/_altervista_ht/webcam.php',
+        source: 'User reported',
+        status: 'HTTP Error: 400'
+    },
+    {
+        id: 20576,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Valle Muricana (Roma nord) - Vista Sud",
+        url: "http://www.vallemuricana.it/webcam.php",
+        image: 'http://www.vallemuricana.it/webcam.php',
+        source: 'User reported',
+        status: 'HTTP Error: 400'
+    },
+    {
+        id: 2577,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Valle Muricana (Roma nord) - Vista Ovest",
+        url: "http://www.vallemuricana.it/webcam1.php",
+        image: 'http://www.vallemuricana.it/webcam1.php',
+        source: 'User reported',
+        status: 'HTTP Error: 400'
+    },
+    {
+        id: 3418,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Zona Centocelle",
+        url: "http://www.meteocentocelle.it/weather/video.jpg",
+        image: 'http://www.meteocentocelle.it/weather/video.jpg',
+        source: 'User reported',
+        status: 'HTTP Error: 400'
+    },
+    {
+        id: 3981,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Vista panoramica",
         url: "http://meteo.viamar.org/jpgwebcam.jpg",
         image: 'http://meteo.viamar.org/jpgwebcam.jpg',
         source: 'User reported',
         status: 'HTTP Error: 400'
     },
     {
-        id: 124,
-        lid: 3,
-        name: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "http://www.meteocentocelle.it/weather/video.jpg",
-        image: 'http://www.meteocentocelle.it/weather/video.jpg',
-        source: 'Feratel',
-        status: 'Content is not image'
-    },
-    {
-        id: 123,
-        lid: 54,
-        name: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "http://www.meteocentocelle.it/weather/video.jpg",
-        image: 'http://www.meteocentocelle.it/weather/video.jpg',
-        source: 'Manual',
-        status: 'HTTP Error: 500'
-    },
-    {
-        id: 125,
-        lid: 7,
-        name: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit amet. Qui illo aliquid et aliquid numquam aut voluptates sequi hic corrupti voluptate vel quidem numquam qui eligendi molestiae? Qui illum eligendi 33 deserunt sint non exercitationem voluptatem eum autem quia eos officiis adipisci.",
-        url: "http://meteo.viamar.org/jpgwebcam.jpg",
-        image: 'http://meteo.viamar.org/jpgwebcam.jpg',
+        id: 4598,
+        lid: 5913,
+        name: "Roma (RM)",
+        description: "Piazza Navona",
+        url: "http://media06.whatsupcams.com/snaps/it_roma02/it_roma02.png",
+        image: 'http://media06.whatsupcams.com/snaps/it_roma02/it_roma02.png',
         source: 'User reported',
         status: 'HTTP Error: 400'
     },
