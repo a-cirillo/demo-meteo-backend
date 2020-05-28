@@ -24,8 +24,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     style: {
-        color: 'purple',
-        backgroundColor: 'red'
+        color: 'white',
+        backgroundColor: '#cc2c51'
     },
 });
 

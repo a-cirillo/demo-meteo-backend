@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2afb4405-3f1f-4a10-a6be-03fa77ad581f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss" afterPath="$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss" afterPath="$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/custom.styels.scss" afterPath="$PROJECT_DIR$/src/custom.styels.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx" afterPath="$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/webcam-reports/webcam-reports.component.jsx" afterPath="$PROJECT_DIR$/src/page/webcam-reports/webcam-reports.component.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/webcams/webcams.component.jsx" afterPath="$PROJECT_DIR$/src/page/webcams/webcams.component.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx" afterPath="$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,27 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="custom-url-field.component.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
               <folding>
-                <element signature="e#67#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-provider.component.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-381">
-              <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#3980#5565#0" expanded="false" />
-                <element signature="e#7546#8885#0" expanded="false" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,18 +33,38 @@
       <file leaf-file-name="custom-url-field.styels.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="housekeeping.component.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom-button.styels.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-url-field.styels.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/my-url-field/my-url-field.styels.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="housekeeping.component.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="93" column="34" lean-forward="false" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="e#103#153#0" expanded="true" />
               </folding>
@@ -67,36 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-url-field.component.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/my-url-field/my-url-field.component.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webcam-reports.component.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webcam-reports.component.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/webcam-reports/webcam-reports.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="125">
               <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="e#103#153#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-button.styels.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,8 +119,8 @@
       <file leaf-file-name="custom.styels.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/custom.styels.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -159,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/page/products/index.jsx" />
-        <option value="$PROJECT_DIR$/src/page/products/GridList.jsx" />
         <option value="$PROJECT_DIR$/src/page/products/Poster.jsx" />
         <option value="$PROJECT_DIR$/src/page/products/ProductCreate.jsx" />
         <option value="$PROJECT_DIR$/src/page/products/ProductEdit.jsx" />
@@ -203,13 +194,15 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/custom-login-page/custom-login-page.component.jsx.js" />
         <option value="$PROJECT_DIR$/src/components/custom-login-page/custom-login-page.component.jsx" />
-        <option value="$PROJECT_DIR$/src/custom.styels.scss" />
-        <option value="$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx" />
-        <option value="$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx" />
         <option value="$PROJECT_DIR$/src/page/webcams/webcams.component.jsx" />
         <option value="$PROJECT_DIR$/src/page/webcam-reports/webcam-reports.component.jsx" />
+        <option value="$PROJECT_DIR$/src/custom.styels.scss" />
+        <option value="$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss" />
+        <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss" />
+        <option value="$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss" />
+        <option value="$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx" />
       </list>
     </option>
   </component>
@@ -275,19 +268,6 @@
               <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom-url-field" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -303,26 +283,6 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="webcam-reports" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="webcams" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="provider" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="meteo-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meteo-backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="provider" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="data-provider" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -386,12 +346,12 @@
       <workItem from="1590572820605" duration="21356000" />
       <workItem from="1590654573938" duration="2110000" />
       <workItem from="1590657142300" duration="612000" />
-      <workItem from="1590657784070" duration="3738000" />
+      <workItem from="1590657784070" duration="4172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43482000" />
+    <option name="totallyTimeSpent" value="43916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="30" width="1680" height="981" extended-state="0" />
@@ -452,7 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/event-item/event-item.component.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/event-list/event-list.component.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/event-list-stories/event-list-stories.component.jsx" />
     <entry file="file://$PROJECT_DIR$/src/utilities/group-by-day/group-by-day.component.jsx" />
@@ -593,17 +552,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -630,25 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-image-field/custom-button.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -663,36 +601,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/custom-login-page/custom-login-page.component.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/custom.styels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -710,21 +622,11 @@
     <entry file="file://$PROJECT_DIR$/src/provider/data-provider/data-provider.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-381">
-          <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
+          <caret line="239" column="25" lean-forward="false" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#3980#5565#0" expanded="false" />
             <element signature="e#7546#8885#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="93" column="34" lean-forward="false" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
-          <folding>
-            <element signature="e#103#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,10 +641,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/custom.styels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-image-field/custom-button.styels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/my-url-field/my-url-field.styels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-button/custom-button.styels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/custom-url-field/custom-url-field.styels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/webcam-reports/webcam-reports.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="125">
           <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#103#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/housekeeping/housekeeping.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="e#103#153#0" expanded="true" />
           </folding>
