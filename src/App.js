@@ -19,7 +19,7 @@ import WebcamReportsIcon from '@material-ui/icons/Report';
 import UserIcon from '@material-ui/icons/Group';
 import CommentIcon from '@material-ui/icons/Comment';
 import './custom.styels.scss'
-import bg from './img/bg.jpg';
+// import bg from '../public/images/bg.jpg';
 // const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 import dataProvider from './provider/data-provider/data-provider.component';
@@ -27,7 +27,7 @@ import dataProvider from './provider/data-provider/data-provider.component';
 const MyLoginPage = () => (
     <Login
         // A random image that changes everyday
-        backgroundImage={bg}
+        backgroundImage="/images/bg.jpg"
     />
 );
 
